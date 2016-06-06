@@ -1,0 +1,9 @@
+<h1>Enter the ticker symbol or company name below</h1>
+	<p id="notice"><%= notice %></p>
+<div>
+	<%= form_tag ticker_result_path do %>
+		<%= text_field_tag :ticker, nil, placeholder: "Enter search term" %>
+		<br>
+		<%= submit_tag "Check Sentiment" %>
+	<% end %>
+</div>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  qid: 1
+  pub_date: 2016-06-03 16:03:11
+  url: MyText
+  clean_text: MyText
+  score: 1.5
+  source: MyString
+
+two:
+  qid: 1
+  pub_date: 2016-06-03 16:03:11
+  url: MyText
+  clean_text: MyText
+  score: 1.5
+  source: MyString

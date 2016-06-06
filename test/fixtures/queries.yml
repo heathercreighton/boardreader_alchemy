@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  query: MyString
+  concat: MyText
+  userid: MyString
+
+two:
+  query: MyString
+  concat: MyText
+  userid: MyString

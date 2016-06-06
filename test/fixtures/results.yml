@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ticker: MyString
+  company: MyString
+  date: 2016-06-03 15:59:41
+  url: MyText
+  senttype: MyString
+  score: MyString
+
+two:
+  ticker: MyString
+  company: MyString
+  date: 2016-06-03 15:59:41
+  url: MyText
+  senttype: MyString
+  score: MyString

@@ -1,0 +1,10 @@
+<h1>Sentiment Result</h1>
+
+
+<% @results.each do |r|%>
+	<p>	Url: <%= r.url %></p>
+	<p>	Sentiment Type:	<%= r.senttype %></p> 
+	<p> Sentiment Score:	<%= r.score %></p>
+<% end %>	
+
+<%= link_to 'Submit another ticker or company', root_path %>
